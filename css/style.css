@@ -1,0 +1,356 @@
+body{
+	margin: 0px;
+	padding: 0px; 
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #FFF;
+    text-align: center;
+    padding: 0.3px 0;
+    transition: all 0.5s ease;
+
+}
+
+nav.hidden{
+    transform: translate3d(0,-1000%,0);
+} 
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.active{
+    background-color: #fff;
+  
+}
+
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.box{
+	width: 900px;
+	margin: auto;
+    overflow: hidden;
+}
+
+.boxs{
+	width: 900px;
+	margin: auto;
+    overflow: hidden;
+}
+
+.boxs img{
+    float: left;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	padding: 10px;
+	background: #333;
+	background-attachment: fixed;
+
+}
+
+
+.menu{
+    overflow: hidden;
+}
+
+.menulist{
+    float: right;
+}
+
+.menulist a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-style: initial;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+}
+
+.menulist a:hover, a:focus{
+    font-weight: 500;
+    color: #00CCFF; 
+}
+
+#big-banner{
+	background: url(../images/ban.png)no-repeat;
+	height: 700px;
+	background-size: auto;
+    background-attachment: fixed;
+ 
+}
+
+.box h1{
+    color: #fff;
+    font-style: normal;
+    font-size: 34px;
+}
+
+.banner-text{
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 250px;
+}
+
+.banner-text h1{
+	font-weight: 200px;
+}
+
+.bold{
+	font-weight: 900;
+	letter-spacing: 1px;
+	color:  #00CCFF; 
+}
+
+.btn-register{
+	background: #00CCFF; 	
+	color: #fff;
+	padding: 7px 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.btn-register:hover{
+	 background: #109EBF;
+	 transition: 0.5s;
+}
+
+.btn-portofolio{
+    border: 2px solid #fff;
+    color: #fff;
+    padding:5px 10px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px; 
+    margin-left: 20%;
+ }
+
+.btn-portofolio:hover{
+     background:#109ebf;
+     transition: 0.5s;
+}
+
+.col-3{
+	width: 300px;
+	float: left;
+}
+
+#service{
+    overflow: hidden;
+    padding: 100px;
+    background-color: #666;
+    text-align: center;
+   
+}
+
+#service h3{
+   font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 5px 0;
+}
+
+#service p{
+    margin: 0;
+    padding: 15px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+#about{
+     padding: 100px;
+    overflow: hidden;
+    background: #f9f9f9;
+   
+}
+
+#about h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin: 5px 0; 
+    color: #00CCFF;
+    margin-top: 10px;
+}
+
+#about  p{
+    margin: 10px;
+    padding: 0px;
+    font-size: 14px;
+    color: #999;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.col-300{
+    width: 600px;
+    float: left;
+    background: #f9f9f9;
+}
+
+.col-600{
+    width: 300px;
+    float: left;
+
+}
+.col-600 img{
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    overflow: hidden;
+}
+
+.btn-more{
+    border: 2px solid #333;
+    color: #333;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px; 
+ }
+
+.btn-more:hover{
+	 background:#00CCFF;
+	 transition: 0.5s;
+}
+
+#portofolio{
+    padding: 10px;
+    background-color: #333;
+    
+}
+
+#portofolio img{
+   margin-left: 10px;
+}
+
+.logo_p img{
+    margin-top: 40px;
+    width: 18%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo_f img{
+    width: 18%;
+    padding: 5px;    
+   
+}
+.teks_portofolio p{
+     margin-top: 60px;
+     text-align: center;
+    color: #fff;
+     font-size: 30px;
+     text-decoration: none;
+
+}
+
+
+.container {
+                width: 430px;
+                margin: 0 auto;
+                padding: 170px 0;
+            }
+.quote-container blockquote{
+    display: none;                    
+}
+
+.container p{
+     font-size: 20px;
+ }
+            
+.quote-button{
+    text-transform: uppercase;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 600px;
+    background: #00CCFF;  
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;            
+}
+
+.quote-button:hover{
+     background: #109EBF;
+     transition: 0.5s;
+}  
+
+#contact{
+    padding: 150px;
+    background-color: #fff;
+}
+
+#contact h1{
+    text-align: left;
+    margin-top: 20px;
+    color: #333;
+}
+
+.text-contact p{
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+    margin-left: 30%;
+     margin-top: -150px;
+     text-decoration: none;
+     padding: 10px;
+}
+
+.text-contact img{
+    padding: 5px;
+    width: 5%
+}
+
+#footer{
+    padding: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background: #333;
+}
+
+.box-footer{
+    width: 900px;
+    margin: auto;
+    
+}
+
+.box-footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.box-footer img{
+    width: 1.5%;
+    float: right;
+    padding: 8px;
+    margin-top: -4px;
+ 
+}
+
+.box-footer img:hover{
+    color: ##109ebf;
+    padding: 10px;
+}
